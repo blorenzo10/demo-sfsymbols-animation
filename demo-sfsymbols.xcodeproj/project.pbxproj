@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC5A20E42AAE755900E3F28C /* demo_sfsymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A20E32AAE755900E3F28C /* demo_sfsymbolsApp.swift */; };
+		BC1525BE2AAE951A0041E86F /* PulseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1525BD2AAE951A0041E86F /* PulseAnimationView.swift */; };
+		BC1525C02AAE97C70041E86F /* VariableColorAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1525BF2AAE97C70041E86F /* VariableColorAnimationView.swift */; };
+		BC5A20E42AAE755900E3F28C /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A20E32AAE755900E3F28C /* DemoApp.swift */; };
 		BC5A20E62AAE755900E3F28C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A20E52AAE755900E3F28C /* ContentView.swift */; };
 		BC5A20E82AAE755D00E3F28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5A20E72AAE755D00E3F28C /* Assets.xcassets */; };
 		BC5A20EB2AAE755D00E3F28C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5A20EA2AAE755D00E3F28C /* Preview Assets.xcassets */; };
+		BC5A20F22AAE79AD00E3F28C /* BounceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A20F12AAE79AD00E3F28C /* BounceAnimationView.swift */; };
+		BC7684992AB6680C00ABEED7 /* ScaleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7684982AB6680C00ABEED7 /* ScaleAnimationView.swift */; };
+		BC76849C2AB66B2600ABEED7 /* AppearAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76849B2AB66B2600ABEED7 /* AppearAnimationView.swift */; };
+		BC76849E2AB66FEF00ABEED7 /* DisappearAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76849D2AB66FEF00ABEED7 /* DisappearAnimationView.swift */; };
+		BC7684A02AB6722C00ABEED7 /* ReplaceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76849F2AB6722C00ABEED7 /* ReplaceAnimationView.swift */; };
+		BC7684A22AB6A4E600ABEED7 /* OverallDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7684A12AB6A4E600ABEED7 /* OverallDemoView.swift */; };
+		BC7684A42AB74B4200ABEED7 /* DiscreteDemoAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7684A32AB74B4200ABEED7 /* DiscreteDemoAnimationsView.swift */; };
+		BC7684A62AB7503100ABEED7 /* IndefiniteAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7684A52AB7503100ABEED7 /* IndefiniteAnimationsView.swift */; };
+		BC7684A82AB752CD00ABEED7 /* TransitionAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7684A72AB752CD00ABEED7 /* TransitionAnimationsView.swift */; };
+		BC7684AA2AB7588100ABEED7 /* ContentTransitionAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7684A92AB7588100ABEED7 /* ContentTransitionAnimationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC1525BD2AAE951A0041E86F /* PulseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimationView.swift; sourceTree = "<group>"; };
+		BC1525BF2AAE97C70041E86F /* VariableColorAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableColorAnimationView.swift; sourceTree = "<group>"; };
 		BC5A20E02AAE755900E3F28C /* demo-sfsymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-sfsymbols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC5A20E32AAE755900E3F28C /* demo_sfsymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_sfsymbolsApp.swift; sourceTree = "<group>"; };
+		BC5A20E32AAE755900E3F28C /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		BC5A20E52AAE755900E3F28C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC5A20E72AAE755D00E3F28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5A20EA2AAE755D00E3F28C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC5A20F12AAE79AD00E3F28C /* BounceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationView.swift; sourceTree = "<group>"; };
+		BC7684982AB6680C00ABEED7 /* ScaleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimationView.swift; sourceTree = "<group>"; };
+		BC76849B2AB66B2600ABEED7 /* AppearAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearAnimationView.swift; sourceTree = "<group>"; };
+		BC76849D2AB66FEF00ABEED7 /* DisappearAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisappearAnimationView.swift; sourceTree = "<group>"; };
+		BC76849F2AB6722C00ABEED7 /* ReplaceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAnimationView.swift; sourceTree = "<group>"; };
+		BC7684A12AB6A4E600ABEED7 /* OverallDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallDemoView.swift; sourceTree = "<group>"; };
+		BC7684A32AB74B4200ABEED7 /* DiscreteDemoAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscreteDemoAnimationsView.swift; sourceTree = "<group>"; };
+		BC7684A52AB7503100ABEED7 /* IndefiniteAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndefiniteAnimationsView.swift; sourceTree = "<group>"; };
+		BC7684A72AB752CD00ABEED7 /* TransitionAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimationsView.swift; sourceTree = "<group>"; };
+		BC7684A92AB7588100ABEED7 /* ContentTransitionAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTransitionAnimationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +75,9 @@
 		BC5A20E22AAE755900E3F28C /* demo-sfsymbols */ = {
 			isa = PBXGroup;
 			children = (
-				BC5A20E32AAE755900E3F28C /* demo_sfsymbolsApp.swift */,
+				BC76849A2AB66B0600ABEED7 /* Animations */,
+				BC5A20E32AAE755900E3F28C /* DemoApp.swift */,
+				BC7684A12AB6A4E600ABEED7 /* OverallDemoView.swift */,
 				BC5A20E52AAE755900E3F28C /* ContentView.swift */,
 				BC5A20E72AAE755D00E3F28C /* Assets.xcassets */,
 				BC5A20E92AAE755D00E3F28C /* Preview Content */,
@@ -65,6 +91,24 @@
 				BC5A20EA2AAE755D00E3F28C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC76849A2AB66B0600ABEED7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				BC5A20F12AAE79AD00E3F28C /* BounceAnimationView.swift */,
+				BC1525BD2AAE951A0041E86F /* PulseAnimationView.swift */,
+				BC1525BF2AAE97C70041E86F /* VariableColorAnimationView.swift */,
+				BC7684982AB6680C00ABEED7 /* ScaleAnimationView.swift */,
+				BC76849B2AB66B2600ABEED7 /* AppearAnimationView.swift */,
+				BC76849D2AB66FEF00ABEED7 /* DisappearAnimationView.swift */,
+				BC76849F2AB6722C00ABEED7 /* ReplaceAnimationView.swift */,
+				BC7684A32AB74B4200ABEED7 /* DiscreteDemoAnimationsView.swift */,
+				BC7684A52AB7503100ABEED7 /* IndefiniteAnimationsView.swift */,
+				BC7684A72AB752CD00ABEED7 /* TransitionAnimationsView.swift */,
+				BC7684A92AB7588100ABEED7 /* ContentTransitionAnimationsView.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7684A82AB752CD00ABEED7 /* TransitionAnimationsView.swift in Sources */,
+				BC5A20F22AAE79AD00E3F28C /* BounceAnimationView.swift in Sources */,
 				BC5A20E62AAE755900E3F28C /* ContentView.swift in Sources */,
-				BC5A20E42AAE755900E3F28C /* demo_sfsymbolsApp.swift in Sources */,
+				BC7684A42AB74B4200ABEED7 /* DiscreteDemoAnimationsView.swift in Sources */,
+				BC76849C2AB66B2600ABEED7 /* AppearAnimationView.swift in Sources */,
+				BC76849E2AB66FEF00ABEED7 /* DisappearAnimationView.swift in Sources */,
+				BC5A20E42AAE755900E3F28C /* DemoApp.swift in Sources */,
+				BC1525C02AAE97C70041E86F /* VariableColorAnimationView.swift in Sources */,
+				BC7684992AB6680C00ABEED7 /* ScaleAnimationView.swift in Sources */,
+				BC7684A22AB6A4E600ABEED7 /* OverallDemoView.swift in Sources */,
+				BC1525BE2AAE951A0041E86F /* PulseAnimationView.swift in Sources */,
+				BC7684A62AB7503100ABEED7 /* IndefiniteAnimationsView.swift in Sources */,
+				BC7684AA2AB7588100ABEED7 /* ContentTransitionAnimationsView.swift in Sources */,
+				BC7684A02AB6722C00ABEED7 /* ReplaceAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

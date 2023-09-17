@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct demo_sfsymbolsApp: App {
+struct DemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
